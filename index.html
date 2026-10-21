@@ -1,63 +1,157 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DopaDoo</title><style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#0d2420;background:#edf4f1;margin:0}
-main{max-width:820px;margin:0 auto;padding:24px 20px 80px}
-header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
-h1{font-size:28px;margin:8px 0 4px}h2{font-size:20px;margin:28px 0 8px}h3{font-size:16px;margin:18px 0 4px}
-a{color:#0f6f5f}table{border-collapse:collapse;width:100%;font-size:14.5px;background:#fff;border-radius:12px;overflow:hidden}
-td,th{border-bottom:1px solid #dce7e3;padding:8px 10px;text-align:left;vertical-align:top}th{background:#ddf2eb}
-.lang{margin:0 0 16px}.muted{color:#5f7873;font-size:14px}
-section+section{margin-top:56px;padding-top:24px;border-top:2px solid #dce7e3}
-</style></head>
-<body><main>
-<header><strong style="font-size:22px;color:#0f6f5f">DopaDoo</strong></header>
-<p class="lang"><a href="#de">Deutsch</a> · <a href="#en">English</a> · <a href="datenschutz.html">Datenschutz / Privacy</a> · <a href="impressum.html">Impressum / Legal notice</a></p>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DopaDoo – die Aufgaben-App für Köpfe mit ADHS</title>
+<meta name="description" content="DopaDoo hilft dir, Aufgaben aus dem Kopf zu holen, in drei Prioritäten zu sortieren und einfach anzufangen. Belohnt wird die Überwindung, nicht die Menge. Ohne Druck, ohne Konto. Für iPhone, Android folgt.">
+<link rel="canonical" href="https://adjadevelop.github.io/gamifymynotes/">
+<link rel="alternate" hreflang="de" href="https://adjadevelop.github.io/gamifymynotes/">
+<link rel="alternate" hreflang="en" href="https://adjadevelop.github.io/gamifymynotes/#en">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DopaDoo – die Aufgaben-App für Köpfe mit ADHS">
+<meta property="og:description" content="Aus dem Kopf, in drei Stapel, anfangen. Belohnt wird die Überwindung, nicht die Menge.">
+<meta property="og:image" content="https://adjadevelop.github.io/gamifymynotes/img/og.png">
+<meta property="og:url" content="https://adjadevelop.github.io/gamifymynotes/">
+<meta name="apple-itunes-app" content="app-id=6822262464">
+<link rel="stylesheet" href="site.css">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"MobileApplication",
+ "name":"DopaDoo",
+ "alternateName":"DopaDoo: Aufgaben spielerisch",
+ "operatingSystem":"iOS, Android",
+ "applicationCategory":"ProductivityApplication",
+ "description":"Aufgaben-App für Menschen mit ADHS: Gedanken sammeln, in drei Prioritäten sortieren, mit Fokus-Timer anfangen. Funken für Überwindung, ein Wesen, das mitwächst, eine Flamme ohne Strafe. Ohne Konto, Daten bleiben auf dem Gerät.",
+ "inLanguage":["de","en","es","fr","it","nl","pl","pt","ru","tr","ar","ja","ko","zh"],
+ "url":"https://adjadevelop.github.io/gamifymynotes/",
+ "downloadUrl":"https://apps.apple.com/app/dopadoo/id6822262464",
+ "image":"https://adjadevelop.github.io/gamifymynotes/img/og.png",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR","description":"Kostenlos laden; einmaliger Kauf ohne Abo schaltet weitere Funktionen frei."},
+ "author":{"@type":"Organization","name":"AJ-Dev","email":"adjadevelop@gmail.com"}
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {"@type":"Question","name":"Für wen ist DopaDoo gedacht?","acceptedAnswer":{"@type":"Answer","text":"Für alle, denen Aufgabenlisten schnell über den Kopf wachsen und denen das Anfangen schwerfällt. Entwickelt wurde DopaDoo mit Blick auf ADHS, die App setzt aber keine Diagnose voraus."}},
+  {"@type":"Question","name":"Ist DopaDoo eine Therapie-App?","acceptedAnswer":{"@type":"Answer","text":"Nein. DopaDoo ist ein Werkzeug zum Organisieren und Motivieren, kein Medizinprodukt. Die App ersetzt keine ärztliche oder therapeutische Begleitung."}},
+  {"@type":"Question","name":"Was kostet DopaDoo?","acceptedAnswer":{"@type":"Answer","text":"Auf dem iPhone ist DopaDoo kostenlos; ein einmaliger Kauf schaltet die Übernahme von Kalenderterminen und Schritte für große Aufgaben frei. Unter Android kannst du alles 14 Tage lang testen und die App danach einmalig freischalten. Ein Abo gibt es nicht."}},
+  {"@type":"Question","name":"Brauche ich ein Konto?","acceptedAnswer":{"@type":"Answer","text":"Nein. DopaDoo speichert deine Aufgaben auf deinem Gerät. Es gibt kein Konto, keine Werbung und kein Tracking."}},
+  {"@type":"Question","name":"Was passiert, wenn ich einen Tag nicht schaffe?","acceptedAnswer":{"@type":"Answer","text":"Nichts Schlimmes. Die Flamme wartet auf dich, Pausentage fangen verpasste Tage auf. DopaDoo bestraft dich nicht und macht dir kein schlechtes Gewissen."}},
+  {"@type":"Question","name":"Gibt es DopaDoo auch für Android?","acceptedAnswer":{"@type":"Answer","text":"Ja, die Android-Version ist fertig und erscheint in Kürze im Google Play Store."}}
+ ]
+}
+</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+ <a class="brand" href="./"><img src="img/icon.png" alt="" width="34" height="34">DopaDoo</a>
+ <nav><a href="#so-gehts">So geht's</a><a href="#artikel">Artikel</a><a href="#en" hreflang="en">English</a></nav>
+</div></header>
 
-<section id="de" lang="de">
-<h1>DopaDoo</h1>
-<p><strong>Priorisieren, erledigen, belohnt werden.</strong> DopaDoo bringt Ordnung in deinen Tag und macht jeden Erfolg spürbar. Die App ist für Menschen mit ADHS gemacht, denen das Priorisieren und Ordnen im Alltag oft schwerfällt.</p>
+<div class="hero"><div class="wrap">
+ <h1>Weniger im Kopf.<br><em>Mehr geschafft.</em></h1>
+ <p class="lead">DopaDoo ist die Aufgaben-App für Köpfe mit ADHS. Du holst alles aus dem Kopf, sortierst es in drei Stapel und fängst einfach an. Belohnt wird die Überwindung, nicht die Menge.</p>
+ <div class="btns">
+  <a class="btn" href="https://apps.apple.com/app/dopadoo/id6822262464">Für iPhone laden</a>
+  <a class="btn ghost" href="#so-gehts">So funktioniert's</a>
+ </div>
+ <p class="note">Android: in Kürze im Google Play Store. Ohne Konto, ohne Werbung, ohne Abo.</p>
+ <div class="shots" aria-label="Bildschirmfotos der App">
+  <img src="img/sortieren.jpg" alt="Gedanken landen im Sammelbereich und werden in Wichtig, Normal und Nebenbei sortiert" width="190" height="338" loading="lazy">
+  <img src="img/start.jpg" alt="Startseite mit Tagesziel-Ring und dem Wesen, das mitwächst" width="190" height="338" loading="lazy">
+  <img src="img/fokus.jpg" alt="Fokus-Timer mit kleinem Begleiter" width="190" height="338" loading="lazy">
+  <img src="img/kalender.jpg" alt="Kalender mit eingeblendeten Handy-Terminen" width="190" height="338" loading="lazy">
+ </div>
+</div></div>
 
-<h2>Was die App macht</h2>
-<ul>
-<li>Aufgaben per Drag and Drop in die Spuren Wichtig, Normal und Nebenbei sortieren. Die Liste bekommt eine Reihenfolge.</li>
-<li>Ein Tagesziel in Punkten: Wer es erreicht, hat einen Erfolg, auch wenn nicht alles erledigt ist.</li>
-<li>Belohnung, die motiviert: Bei jedem Tagesziel wächst ein Wesen ein Stück weiter, dazu eine Flamme für jeden Tag, an dem du dranbleibst.</li>
-<li>Eigene Belohnungen, die du dir selbst festlegst, und eine 14-Tage-Challenge mit Highscore.</li>
-<li>Verpasste Tage sind kein Drama, Gnadentage fangen sie auf.</li>
-<li>Erinnerungen für Morgenroutine, Pausen, Aufgaben und Tagesziel, einzeln einstellbar.</li>
-</ul>
-
-<h2>Was als Nächstes geplant ist</h2>
-<p>Gemeinsam bleibt man leichter dran. Deshalb ist eine Community-Funktion in Planung: Gruppen, in denen man sich gegenseitig anspornt und begleitet. Sie ist in der aktuellen Version noch nicht enthalten.</p>
-
-<h2>Deine Daten</h2>
-<p>Deine Aufgaben speichert DopaDoo auf deinem Gerät. Kein Konto, keine Werbung, kein Tracking. Die App gibt es in 14 Sprachen. Unter Android ist sie 14 Tage kostenlos testbar, danach schaltest du sie einmalig frei; auf dem iPhone ist sie kostenlos, und ein einmaliger Kauf schaltet Kalender-Übernahme und Schritte frei. Kein Abo.</p>
-
-<p>Fragen, Feedback oder Hilfe: <a href="mailto:adjadevelop@gmail.com">adjadevelop@gmail.com</a><br><a href="datenschutz.html">Datenschutzerklärung</a> · <a href="impressum.html">Impressum</a></p>
-<p class="muted">DopaDoo ist ein Organisations- und Motivationswerkzeug, kein Medizinprodukt. Ein Angebot von Adrian Bürkner (AJ-Dev).</p>
+<main class="wrap">
+<section id="so-gehts">
+ <h2>So funktioniert DopaDoo</h2>
+ <ol class="steps">
+  <li><b>Raus aus dem Kopf</b>Morgens oder zwischendurch: alles aufschreiben, was dich beschäftigt. Ungefiltert, ohne Reihenfolge.</li>
+  <li><b>In drei Stapel</b>Jeden Punkt nach Wichtig, Normal oder Nebenbei ziehen. Eine Liste mit Reihenfolge statt einer Wand aus Aufgaben.</li>
+  <li><b>Einfach anfangen</b>Eine Aufgabe wählen, den Fokus-Timer starten. Schon zehn Minuten zählen, auch wenn du nicht fertig wirst.</li>
+  <li><b>Erfolg spüren</b>Funken sammeln, das Tagesziel erreichen und zusehen, wie dein Wesen Stück für Stück wächst.</li>
+ </ol>
 </section>
 
-<section id="en" lang="en">
-<h1>DopaDoo</h1>
-<p><strong>Prioritise, get it done, feel rewarded.</strong> DopaDoo brings order to your day and makes every success tangible. The app is made for people with ADHD, for whom prioritising and organising often takes real effort.</p>
-
-<h2>What the app does</h2>
-<ul>
-<li>Sort tasks by drag and drop into the lanes Important, Normal and On the side. Your list gets an order.</li>
-<li>A daily goal in points: reach it and the day is a success, even if not everything is done.</li>
-<li>A reward that motivates: with every daily goal a creature grows a little further, plus a flame for every day you keep going.</li>
-<li>Your own rewards that you set yourself, and a 14-day challenge with a high score.</li>
-<li>Missed days are no drama, grace days catch them.</li>
-<li>Reminders for your morning routine, breaks, tasks and daily goal, each set individually.</li>
-</ul>
-
-<h2>What is planned next</h2>
-<p>Keeping going is easier together. That is why a community feature is planned: groups in which people motivate and support each other. It is not part of the current version yet.</p>
-
-<h2>Your data</h2>
-<p>DopaDoo stores your tasks on your device. No account, no ads, no tracking. The app comes in 14 languages. On Android you can try it free for 14 days and then unlock it once; on iPhone it is free, and a one-time purchase unlocks calendar import and steps. No subscription.</p>
-
-<p>Questions, feedback or help: <a href="mailto:adjadevelop@gmail.com">adjadevelop@gmail.com</a><br><a href="datenschutz.html">Privacy policy</a> · <a href="impressum.html">Legal notice</a></p>
-<p class="muted">DopaDoo is an organisation and motivation tool, not a medical device. Offered by Adrian Bürkner (AJ-Dev).</p>
+<section>
+ <h2>Was DopaDoo anders macht</h2>
+ <div class="grid">
+  <div class="card"><h3>Überwindung statt Menge</h3><p>Nicht jede Aufgabe kostet gleich viel Kraft. Für eine zähe Aufgabe gibt es mehr Funken als für eine leichte. Drei Funken reichen für das Tagesziel, manchmal also eine einzige schwere Sache.</p></div>
+  <div class="card"><h3>Anfangen zählt</h3><p>Der schwerste Teil ist oft der erste Schritt. Deshalb bringen schon zehn Minuten Fokus einen Funken. Und wer sich Hilfe holt, hat die Aufgabe genauso erledigt.</p></div>
+  <div class="card"><h3>Kein schlechtes Gewissen</h3><p>Die Flamme erlischt nicht, sie wartet auf dich. Pausentage fangen verpasste Tage auf. DopaDoo erinnert freundlich und macht keinen Druck.</p></div>
+  <div class="card"><h3>Große Aufgaben, kleine Schritte</h3><p>Was zu groß wirkt, teilst du in Schritte. Jeder Schritt ist ein eigener kleiner Erfolg, und die Aufgabe hakt sich am Ende von selbst ab.</p></div>
+ </div>
 </section>
-</main></body></html>
+
+<section>
+ <h2>Was sonst noch drin ist</h2>
+ <ul class="plain">
+  <li><b>Morgenroutine:</b> in fünf Minuten den Tag sortieren, auf Wunsch mit deinen heutigen Kalenderterminen.</li>
+  <li><b>Fokus-Timer mit Begleiter:</b> ein kleines Wesen sitzt beim Arbeiten dabei und meldet sich ab und zu mit einem ruhigen Satz.</li>
+  <li><b>Aufwärmen:</b> Wer schwer in Gang kommt, startet mit Musik und Bewegung, einer Power-Minute oder dem allerersten Handgriff.</li>
+  <li><b>Ausmisten:</b> Wird die Liste zu voll, schlägt DopaDoo vor, gemeinsam aufzuräumen. Loslassen ist ausdrücklich erlaubt.</li>
+  <li><b>Eigene Belohnungen</b> und eine 14-Tage-Challenge, in der dein Wesen mit jedem erreichten Tagesziel ein Stück weiterwächst.</li>
+  <li><b>Tagesbilanz:</b> abends schwarz auf weiß sehen, was du geschafft hast.</li>
+  <li><b>Listen einfügen:</b> Notizen aus anderen Apps mit einem Mal übernehmen, eingerückte Zeilen werden zu Schritten.</li>
+  <li><b>14 Sprachen</b>, darunter Arabisch von rechts nach links.</li>
+ </ul>
+</section>
+
+<section>
+ <h2>Preis und Daten</h2>
+ <div class="grid">
+  <div class="card"><h3>Fair und ohne Abo</h3><p><b>iPhone:</b> kostenlos. Ein einmaliger Kauf schaltet die Übernahme von Kalenderterminen und Schritte frei.<br><b>Android:</b> 14 Tage alles testen, danach einmalig freischalten.<br>Ein freiwilliges Trinkgeld ist möglich, es schaltet nichts frei.</p></div>
+  <div class="card"><h3>Deine Daten bleiben bei dir</h3><p>DopaDoo speichert deine Aufgaben auf deinem Gerät. Kein Konto, keine Werbung, kein Tracking. Kalendertermine werden nur gelesen, wenn du es einschaltest. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p></div>
+ </div>
+</section>
+
+<section id="faq">
+ <h2>Häufige Fragen</h2>
+ <details><summary>Für wen ist DopaDoo gedacht?</summary><p>Für alle, denen Aufgabenlisten schnell über den Kopf wachsen und denen das Anfangen schwerfällt. Entwickelt wurde DopaDoo mit Blick auf ADHS, die App setzt aber keine Diagnose voraus.</p></details>
+ <details><summary>Ist DopaDoo eine Therapie-App?</summary><p>Nein. DopaDoo ist ein Werkzeug zum Organisieren und Motivieren, kein Medizinprodukt. Die App ersetzt keine ärztliche oder therapeutische Begleitung.</p></details>
+ <details><summary>Was kostet DopaDoo?</summary><p>Auf dem iPhone ist DopaDoo kostenlos; ein einmaliger Kauf schaltet die Übernahme von Kalenderterminen und Schritte für große Aufgaben frei. Unter Android kannst du alles 14 Tage lang testen und die App danach einmalig freischalten. Ein Abo gibt es nicht.</p></details>
+ <details><summary>Brauche ich ein Konto?</summary><p>Nein. DopaDoo speichert deine Aufgaben auf deinem Gerät. Es gibt kein Konto, keine Werbung und kein Tracking.</p></details>
+ <details><summary>Was passiert, wenn ich einen Tag nicht schaffe?</summary><p>Nichts Schlimmes. Die Flamme wartet auf dich, Pausentage fangen verpasste Tage auf. DopaDoo bestraft dich nicht und macht dir kein schlechtes Gewissen.</p></details>
+ <details><summary>Gibt es DopaDoo auch für Android?</summary><p>Ja, die Android-Version ist fertig und erscheint in Kürze im Google Play Store.</p></details>
+</section>
+
+<section id="artikel">
+ <h2>Zum Weiterlesen</h2>
+ <div class="art-list">
+  <a href="artikel/aufgaben-priorisieren-adhs.html">Aufgaben priorisieren mit ADHS: drei Stapel statt einer endlosen Liste<span>Warum alles gleich wichtig wirkt und wie eine einfache Sortierung den Kopf freimacht.</span></a>
+  <a href="artikel/anfangen-to-do-listen-adhs.html">Warum To-do-Listen bei ADHS oft scheitern – und was beim Anfangen hilft<span>Die Liste ist selten das Problem. Der erste Schritt ist es. Sieben Ideen, die ihn kleiner machen.</span></a>
+ </div>
+</section>
+
+<section id="en" class="en" lang="en">
+ <h2>DopaDoo in English</h2>
+ <p><b>Less on your mind. More done.</b> DopaDoo is the to-do app for ADHD minds. Get everything out of your head, sort it into three piles and simply start. The app rewards effort, not volume: a tough task earns more sparks than an easy one, ten minutes of focus already count, and the flame never punishes you for a missed day.</p>
+ <ul class="plain">
+  <li>Collect and sort into Important, Normal and On the side</li>
+  <li>Focus timer with a small companion and warm-up options</li>
+  <li>Steps for big tasks, gentle declutter help, morning routine with your calendar</li>
+  <li>Your own rewards and a 14-day challenge in which your creature grows</li>
+  <li>No account, no ads, no tracking – your tasks stay on your device</li>
+ </ul>
+ <p><b>iPhone:</b> free, a one-time purchase unlocks calendar import and steps. <b>Android:</b> coming soon to Google Play, 14-day full trial, then a one-time unlock. No subscription.</p>
+ <p><a class="btn" href="https://apps.apple.com/app/dopadoo/id6822262464">Get it for iPhone</a></p>
+ <p class="muted">DopaDoo is an organisation and motivation tool, not a medical device. It does not replace medical or therapeutic advice.</p>
+</section>
+</main>
+
+<footer><div class="wrap">
+ <p>Fragen, Feedback oder Hilfe: <a href="mailto:adjadevelop@gmail.com">adjadevelop@gmail.com</a></p>
+ <p><a href="datenschutz.html">Datenschutz / Privacy</a> · <a href="impressum.html">Impressum / Legal notice</a></p>
+ <p>DopaDoo ist ein Organisations- und Motivationswerkzeug, kein Medizinprodukt, und ersetzt keine ärztliche oder therapeutische Beratung. Ein Angebot von Adrian Bürkner (AJ-Dev).</p>
+</div></footer>
+</body>
+</html>

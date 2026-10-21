@@ -1,0 +1,15 @@
+# DopaDoo
+
+> DopaDoo ist eine Aufgaben-App für Menschen mit ADHS (iPhone, Android folgt). Nutzer sammeln Gedanken, sortieren sie in drei Prioritäten (Wichtig, Normal, Nebenbei) und fangen mit einem Fokus-Timer an. Belohnt wird die Überwindung, nicht die Menge: Funken je nach Schwierigkeit, schon zehn Minuten Fokus zählen, eine Flamme ohne Strafe, ein Wesen, das mit jedem Tagesziel wächst. Ohne Konto, ohne Werbung, ohne Tracking; Daten bleiben auf dem Gerät. Kein Medizinprodukt.
+
+- Anbieter: AJ-Dev (Adrian Bürkner), Deutschland
+- Preis: iPhone kostenlos, einmaliger Kauf (kein Abo) schaltet Kalender-Übernahme und Schritte frei; Android 14 Tage Test, dann einmalige Freischaltung
+- Sprachen: 14 (u. a. Deutsch, Englisch, Spanisch, Französisch, Italienisch, Niederländisch, Polnisch, Portugiesisch, Russisch, Türkisch, Arabisch, Japanisch, Koreanisch, Chinesisch)
+- App Store: https://apps.apple.com/app/dopadoo/id6822262464
+
+## Seiten
+- [Startseite](https://adjadevelop.github.io/gamifymynotes/): Funktionen, Preise, FAQ
+- [Aufgaben priorisieren mit ADHS](https://adjadevelop.github.io/gamifymynotes/artikel/aufgaben-priorisieren-adhs.html): drei Stapel statt endloser Liste
+- [Warum To-do-Listen bei ADHS oft scheitern](https://adjadevelop.github.io/gamifymynotes/artikel/anfangen-to-do-listen-adhs.html): sieben Ideen für den ersten Schritt
+- [Datenschutz](https://adjadevelop.github.io/gamifymynotes/datenschutz.html)
+- [Impressum](https://adjadevelop.github.io/gamifymynotes/impressum.html)
