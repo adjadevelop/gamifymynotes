@@ -11,5 +11,9 @@
 - [Startseite](https://adjadevelop.github.io/gamifymynotes/): Funktionen, Preise, FAQ
 - [Aufgaben priorisieren mit ADHS](https://adjadevelop.github.io/gamifymynotes/artikel/aufgaben-priorisieren-adhs.html): drei Stapel statt endloser Liste
 - [Warum To-do-Listen bei ADHS oft scheitern](https://adjadevelop.github.io/gamifymynotes/artikel/anfangen-to-do-listen-adhs.html): sieben Ideen für den ersten Schritt
+- [Gamification gegen Aufschieben](https://adjadevelop.github.io/gamifymynotes/artikel/gamification-aufschieben.html): was gute Belohnungen ausmacht
+- [Morgenroutine mit ADHS](https://adjadevelop.github.io/gamifymynotes/artikel/morgenroutine-adhs.html): fünf Minuten zum Sammeln und Sortieren
+- [Body Doubling](https://adjadevelop.github.io/gamifymynotes/artikel/body-doubling.html): warum Gesellschaft beim Anfangen hilft
+- [Volle To-do-Liste ausmisten](https://adjadevelop.github.io/gamifymynotes/artikel/volle-to-do-liste-ausmisten.html): vier Fragen, ohne schlechtes Gewissen
 - [Datenschutz](https://adjadevelop.github.io/gamifymynotes/datenschutz.html)
 - [Impressum](https://adjadevelop.github.io/gamifymynotes/impressum.html)
