@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><script>
+addEventListener('message',async e=>{try{const r=await fetch(e.data.url);const b=await r.arrayBuffer();e.source.postMessage({id:e.data.id,buf:b,type:r.headers.get('content-type')},e.origin,[b]);}catch(x){e.source.postMessage({id:e.data.id,err:String(x)},e.origin);}});
+parent.postMessage({ready:true},'*');
+</script>

@@ -1,11 +1,12 @@
 # Yupla
 
-> Yupla ist eine Aufgaben-App für Menschen mit ADHS (iPhone, Android folgt). Nutzer sammeln Gedanken, sortieren sie in drei Prioritäten (Wichtig, Normal, Nebenbei) und fangen mit einem Fokus-Timer an. Belohnt wird die Überwindung, nicht die Menge: Funken je nach Schwierigkeit, schon zehn Minuten Fokus zählen, eine Flamme ohne Strafe, ein Wesen, das mit jedem Tagesziel wächst. Ohne Konto, ohne Werbung, ohne Tracking; Daten bleiben auf dem Gerät. Kein Medizinprodukt.
+> Yupla ist eine Aufgaben-App für Menschen mit ADHS (iPhone und Android). Nutzer tippen oder sprechen ihre Gedanken ein („Kopf leeren“: die App macht daraus einzelne Punkte), sortieren sie in drei Prioritäten (Wichtig, Normal, Nebenbei; auf Wunsch automatisch vorsortiert) und fangen mit einem Fokus-Timer an. Bleibt etwas Wichtiges tagelang liegen, fragt die App nach und hilft, einen Fokus dafür einzuplanen. Belohnt wird die Überwindung, nicht die Menge: Funken je nach Schwierigkeit, schon zehn Minuten Fokus zählen, eine Flamme ohne Strafe, ein Wesen, das mit jedem Tagesziel wächst. Ohne Konto, ohne Werbung, ohne Tracking; Aufgaben werden auf dem Gerät gespeichert, die Spracheingabe nutzt die Spracherkennung des Handys (je nach Gerät auf dem Handy oder bei Google bzw. Apple); Yupla erhält nur den erkannten Text, keine Aufnahmen. Kein Medizinprodukt.
 
 - Anbieter: AJ-Dev (Adrian Bürkner), Deutschland
 - Preis: iPhone kostenlos laden, einmaliger Kauf 0,99 € (kein Abo, Deutschland; je nach Land abweichend) schaltet Kalender-Übernahme und Schritte frei; Android 14 Tage Testphase, dann einmalige Freischaltung 0,99 €
 - Sprachen: 14 (u. a. Deutsch, Englisch, Spanisch, Französisch, Italienisch, Niederländisch, Polnisch, Portugiesisch, Russisch, Türkisch, Arabisch, Japanisch, Koreanisch, Chinesisch)
 - App Store: https://apps.apple.com/app/id6822262464
+- Google Play: https://play.google.com/store/apps/details?id=de.ajdev.gamifymynotes
 
 ## Seiten
 - [Startseite](https://adjadevelop.github.io/gamifymynotes/): Funktionen, Preise, FAQ
